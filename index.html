@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Sign up - Dark Mode</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <div class="shape" id="first">
+      <div class="left">
+        <img src="image/illustration.webp" alt="illustration" />
+      </div>
+      <div class="right">
+        <div class="title">
+          <h1>Create an account</h1>
+          <h2>Already have an acount? <a href="login">Log in</a></h2>
+        </div>
+        <div class="form">
+          <form>
+            <div id="name">
+              <input
+                type="text"
+                placeholder="First name"
+                id="Firstname"
+                required
+              />
+              <input
+                type="text"
+                placeholder="Last name"
+                id="Lastname"
+                required
+              />
+            </div>
+            <input type="email" placeholder="Email" id="email" required />
+            <input
+              type="password"
+              placeholder="Enter your password"
+              id="password"
+              required
+            />
+          </form>
+        </div>
+        <div class="check">
+          <input type="checkbox" id="checkbox" />
+          <i class="bx bx-check"></i>
+          <p>I agree to the <a href="#">Terms & Conditions</a></p>
+        </div>
+        <div class="createB">
+          <button id="button">Create account</button>
+        </div>
+        <div class="orText">
+          <span>____________________ </span>
+          <span id="spanText"> Or register with</span>
+          <span>____________________ </span>
+        </div>
+        <div class="towbottun">
+          <button id="google">
+            <img src="image/google.svg" alt="" />
+            <h1>Google</h1>
+          </button>
+          <button id="apple">
+            <img src="image/apple.svg" alt="" />
+            <h1>Apple</h1>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

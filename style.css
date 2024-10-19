@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #615c73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shape {
+  margin-top: 100px;
+  display: flex;
+}
+#first {
+  background-color: #2b2738;
+  width: 800px;
+  height: 492.5px;
+  padding: 15px;
+  border-radius: 22px;
+}
+.left img {
+  width: 400px;
+  border-radius: 7px;
+}
+.right {
+  margin-left: 58px;
+}
+.title {
+  color: white;
+  margin-top: 33px;
+}
+.title h1 {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: -0.9px;
+}
+
+.title h2 {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.title h2 a {
+  margin-left: 4px;
+  color: #9c8ece;
+
+  font-weight: 300;
+}
+.form {
+  margin-top: 35px;
+  display: flex;
+}
+.form input {
+  background-color: #3b364c;
+  border: none;
+  color: rgb(170, 167, 161);
+  padding: 5px;
+  height: 25px;
+  width: 290px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.form input:focus {
+  outline: none;
+  border: 1px solid #45388c;
+}
+#name {
+  max-width: 80px;
+  display: flex;
+
+  gap: 12px;
+}
+#Firstname {
+  width: 134px;
+}
+#Lastname {
+  width: 134px;
+}
+.check {
+  margin-top: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.check p {
+  margin-left: 11px;
+}
+.check p a {
+  margin-left: 2px;
+  color: #9c8ece;
+
+  font-weight: 300;
+}
+#checkbox {
+  appearance: none;
+  height: 13px;
+  width: 13px;
+  background-color: #e4defb;
+  border-color: #45388c;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#checkbox:checked {
+  background-color: #45388c;
+}
+
+#checkbox:checked::after {
+  content: "✔";
+  color: white;
+  font-size: 11px;
+  top: 0;
+  left: 4px;
+}
+
+#button {
+  padding: 5px;
+  height: 40px;
+  width: 300px;
+  margin-top: 17px;
+  border-radius: 7px;
+  color: white;
+  background-color: #45388c;
+  border: none;
+}
+.orText {
+  margin-top: 12px;
+  width: 300px;
+  color: rgb(161, 160, 165);
+  font-size: 12px;
+  font-weight: 100;
+  display: flex;
+  justify-content: space-between;
+}
+#spanText {
+  margin-top: 5px;
+}
+.towbottun {
+  margin-top: 15px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+#google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  width: 142px;
+  height: 40px;
+  background-color: #2b2738;
+  border: 0.5px solid #a1a1a1;
+}
+#google img {
+  width: 15px;
+  margin-right: 10px;
+}
+#google h1 {
+  font-size: 13px;
+  font-weight: 200;
+}
+
+#apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  width: 142px;
+  height: 40px;
+  background-color: #2b2738;
+  border: 0.5px solid #a1a1a1;
+}
+#apple h1 {
+  font-size: 14px;
+  font-weight: 200;
+}
+#apple img {
+  width: 15px;
+  margin-right: 10px;
+}
+
+/* #googleDiv i {
+  align-self: center;
+  font-size: 200px;
+  color: rgb(255, 255, 255);
+} 
+#googleDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  outline: none;
+  border-radius: 5px;
+  width: 142px;
+  height: 40px;
+  background-color: #2b2738;
+  border: 0.5px solid #a1a1a1;
+} */
